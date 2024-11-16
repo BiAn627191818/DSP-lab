@@ -154,3 +154,13 @@ PS D:\git_use> git commit -m "新增.gitignore档案"
 [master a83120d] 新增.gitignore档案
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 .gitignore
+
+
+
+ PS D:\git_use> git remote add origin https://github.com/BiAn627191818/DSP-lab.git
+PS D:\git_use> git branch -M main
+PS D:\git_use> git push -u origin main
+fatal: unable to access 'https://github.com/BiAn627191818/DSP-lab.git/': Failed to connect to github.com port 443 after 21058 ms: Couldn't connect to server
+#来自stackoverflow
+PS D:\git_use> git config --global https.proxy https://127.0.0.1:13094    #设置端口号！
+PS D:\git_use> git push -u origin main
