@@ -148,3 +148,9 @@ PS D:\git_use>
 
 
 考虑在文件中建立.gitignore文件夹，可以把要忽略的档案写进里面，git提交就能避免隐私泄露
+
+PS D:\git_use> git add .   
+PS D:\git_use> git commit -m "新增.gitignore档案" 
+[master a83120d] 新增.gitignore档案
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
