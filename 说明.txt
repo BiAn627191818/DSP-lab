@@ -145,3 +145,6 @@ PS D:\git_use> git status
 On branch master
 nothing to commit, working tree clean
 PS D:\git_use>
+
+
+考虑在文件中建立.gitignore文件夹，可以把要忽略的档案写进里面，git提交就能避免隐私泄露
