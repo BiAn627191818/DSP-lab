@@ -70,4 +70,20 @@ PS D:\git_use> git commit -m "第二次建立"
  2 files changed, 65 insertions(+), 1 deletion(-)
  create mode 100644 "\350\257\264\346\230\216.txt"
 
- 
+ PS D:\git_use> git log
+commit a66e464200a60c0c7f468d142118f3bfa9fb8c57 (HEAD -> master)
+Author: bian <shuaibinbu@gmail.com>
+Date:   Sat Nov 16 23:02:42 2024 +0800
+
+    第二次建立
+
+commit 16db500ab6815139fe3aaf0f9ba939668d6442b9
+Author: bian <shuaibinbu@gmail.com>
+Date:   Sat Nov 16 23:01:41 2024 +0800
+
+    第二次建立
+
+commit 9eb93f82642673998324ff821d4d584e305996a3
+Author: bian <shuaibinbu@gmail.com>
+
+按下q 退出log监视模式
