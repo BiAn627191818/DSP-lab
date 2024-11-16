@@ -100,3 +100,20 @@ a66e464 第二次建立
 注意该操作不可逆：
 PS D:\git_use> git reset --hard e3f8d1b
 HEAD is now at e3f8d1b 第si次建立
+
+如果新增文件
+
+
+PS D:\git_use> git add 新增文件.txt
+PS D:\git_use> git commit -m "第wu次建立"
+[master 67c9bdd] 第wu次建立
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\346\226\260\345\242\236\346\226\207\344\273\266.txt"
+PS D:\git_use> git status                
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    "\346\226\260\345\242\236\346\226\207\344\273\266.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
