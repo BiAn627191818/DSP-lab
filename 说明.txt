@@ -1,0 +1,64 @@
+PS D:\git_use> git --version
+git version 2.45.2.windows.1
+PS D:\git_use> git config --global user.name "bian"  
+PS D:\git_use> git config --global user.email "shuaibinbu@gmail.com"
+PS D:\git_use> git init
+Initialized empty Git repository in D:/git_use/.git/
+
+
+PS D:\git_use> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        another.txt
+        hhh.txt
+        "\346\226\260\345\273\272 \346\226\207\346\234\254\346\226\207\346\241\243.txt"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+U：Untracked 未追踪  -》 T 
+摄影棚:S : Staged 暂存区
+C: Committed 已提交
+
+
+要追踪：(准备接收拍照)
+
+PS D:\git_use> git add hhh.txt
+
+PS D:\git_use> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hhh.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        another.txt
+        "\346\226\260\345\273\272 \346\226\207\346\234\254\346\226\207\346\241\243.txt"
+
+PS D:\git_use> git add jjj.txt another.txt
+
+拍照：
+
+PS D:\git_use> git commit -m "建立还原点"
+[master (root-commit) 9eb93f8] 建立还原点
+ 3 files changed, 47 insertions(+)
+ create mode 100644 another.txt
+ create mode 100644 hhh.txt
+ create mode 100644 jjj.txt
+PS D:\git_use> git status
+On branch master
+nothing to commit, working tree clean
+
+此时修改文章，多了M. 代表内容已经被修改
+
+再拍照：(将所有变更都加入到暂存区)
+
+还可以用 git add *.txt
+以及 git add .
