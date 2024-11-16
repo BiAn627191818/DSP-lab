@@ -62,3 +62,12 @@ nothing to commit, working tree clean
 
 还可以用 git add *.txt
 以及 git add .
+
+PS D:\git_use> git add 说明.txt
+PS D:\git_use> git add .
+PS D:\git_use> git commit -m "第二次建立"
+[master 16db500] 第二次建立
+ 2 files changed, 65 insertions(+), 1 deletion(-)
+ create mode 100644 "\350\257\264\346\230\216.txt"
+
+ 
