@@ -96,3 +96,7 @@ bc799ff (HEAD -> master) 第二次建立
 a66e464 第二次建立
 16db500 第二次建立
 9eb93f8 建立还原点
+
+注意该操作不可逆：
+PS D:\git_use> git reset --hard e3f8d1b
+HEAD is now at e3f8d1b 第si次建立
