@@ -87,3 +87,12 @@ commit 9eb93f82642673998324ff821d4d584e305996a3
 Author: bian <shuaibinbu@gmail.com>
 
 按下q 退出log监视模式
+
+
+git log 简化版：
+
+PS D:\git_use> git log --oneline
+bc799ff (HEAD -> master) 第二次建立
+a66e464 第二次建立
+16db500 第二次建立
+9eb93f8 建立还原点
