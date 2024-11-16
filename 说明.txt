@@ -117,3 +117,31 @@ Changes not staged for commit:
         deleted:    "\346\226\260\345\242\236\346\226\207\344\273\266.txt"
 
 no changes added to commit (use "git add" and/or "git commit -a")
+
+
+
+
+
+新增文件，再删，还能拍照
+PS D:\git_use> git add *.txt
+PS D:\git_use> git commit -m "第wu次建立"
+[master cb456c1] 第wu次建立
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\346\226\260\345\242\236.txt"
+PS D:\git_use> git status          
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    "\346\226\260\345\242\236.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\git_use> git add 新增.txt
+PS D:\git_use> git commit -m "shanchu建立"
+[master 3d80351] shanchu建立
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 "\346\226\260\345\242\236.txt"
+PS D:\git_use> git status
+On branch master
+nothing to commit, working tree clean
+PS D:\git_use>
